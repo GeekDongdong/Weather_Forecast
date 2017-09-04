@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MainViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIImageView *animationImageView = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    animationImageView.image = [UIImage imageNamed:@"animationImageView"];
+    [self.view addSubview:animationImageView];
+    [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(enterMain) userInfo:nil repeats:NO];
 }
-
+- (void)enterMain{
+    MainViewController *vc = [[MainViewController alloc]init];
+    [self presentViewController:vc animated:NO completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

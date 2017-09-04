@@ -10,4 +10,7 @@
 
 @interface CellOne : UITableViewCell
 
+@property(nonatomic,strong)UIImageView *imageViewe;
+@property(nonatomic,strong)UILabel *title;
+@property(nonatomic,strong)UILabel *advice;
 @end

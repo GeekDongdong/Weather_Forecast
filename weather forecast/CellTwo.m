@@ -20,5 +20,20 @@
 
     // Configure the view for the selected state
 }
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        [self.contentView addSubview:self.label];
+        self.selectionStyle = UITableViewCellEditingStyleNone;
+    }
+    return self;
+}
+- (UILabel *)label {
+    if (!_label) {
+        _label = [[UILabel alloc]init];
+        _label.frame = CGRectMake(10, 10, 100, 20);
+        _label.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:15];
+    }
+    return _label;
+}
 
 @end

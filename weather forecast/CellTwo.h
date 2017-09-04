@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CellTwo : UITableViewCell
-
+@property (nonatomic,strong)UILabel *label;
 @end

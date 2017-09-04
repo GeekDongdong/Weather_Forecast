@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CellThree : UITableViewCell
-
+@property (nonatomic,strong)UILabel *date;
+@property (nonatomic,strong)UIImageView *weather_pic;
+@property(nonatomic,strong)UILabel *weather;
+@property(nonatomic,strong)UILabel *quality;
+@property(nonatomic,strong)UILabel *temperature;
 @end

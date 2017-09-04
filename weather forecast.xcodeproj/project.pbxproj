@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0466F18E1F3AF2490061D5BD /* CellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466F18D1F3AF2490061D5BD /* CellTwo.m */; };
+		0466F1911F3AF3C80061D5BD /* CellThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466F1901F3AF3C80061D5BD /* CellThree.m */; };
+		0466F1951F3AF54A0061D5BD /* CellOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466F1941F3AF54A0061D5BD /* CellOne.m */; };
+		0466F19E1F3B41540061D5BD /* MyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466F19D1F3B41540061D5BD /* MyGroup.m */; };
 		049DD1041F38567A00EBBA4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DD1031F38567A00EBBA4B /* main.m */; };
 		049DD1071F38567A00EBBA4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DD1061F38567A00EBBA4B /* AppDelegate.m */; };
 		049DD10A1F38567A00EBBA4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DD1091F38567A00EBBA4B /* ViewController.m */; };
-		049DD10D1F38567A00EBBA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049DD10B1F38567A00EBBA4B /* Main.storyboard */; };
 		049DD10F1F38567A00EBBA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049DD10E1F38567A00EBBA4B /* Assets.xcassets */; };
-		049DD1121F38567A00EBBA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049DD1101F38567A00EBBA4B /* LaunchScreen.storyboard */; };
 		049DD11D1F38567A00EBBA4B /* weather_forecastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DD11C1F38567A00EBBA4B /* weather_forecastTests.m */; };
 		049DD1281F38567A00EBBA4B /* weather_forecastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DD1271F38567A00EBBA4B /* weather_forecastUITests.m */; };
+		04C944A61F3D603D00081098 /* SeletedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C944A51F3D603D00081098 /* SeletedViewController.m */; };
+		04E00D761F3C4FE400D29315 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E00D751F3C4FE400D29315 /* HeaderView.m */; };
+		04E502891F5D5B3D00B6E4A2 /* Global_Change.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E502881F5D5B3D00B6E4A2 /* Global_Change.m */; };
+		04E5028C1F5D652200B6E4A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5028B1F5D652200B6E4A2 /* MainViewController.m */; };
+		04E5028F1F5D658000B6E4A2 /* UrbanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5028E1F5D658000B6E4A2 /* UrbanView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0466F18C1F3AF2490061D5BD /* CellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTwo.h; sourceTree = "<group>"; };
+		0466F18D1F3AF2490061D5BD /* CellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTwo.m; sourceTree = "<group>"; };
+		0466F18F1F3AF3C80061D5BD /* CellThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellThree.h; sourceTree = "<group>"; };
+		0466F1901F3AF3C80061D5BD /* CellThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellThree.m; sourceTree = "<group>"; };
+		0466F1931F3AF54A0061D5BD /* CellOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellOne.h; sourceTree = "<group>"; };
+		0466F1941F3AF54A0061D5BD /* CellOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellOne.m; sourceTree = "<group>"; };
+		0466F19C1F3B41540061D5BD /* MyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGroup.h; sourceTree = "<group>"; };
+		0466F19D1F3B41540061D5BD /* MyGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGroup.m; sourceTree = "<group>"; };
 		049DD0FF1F38567A00EBBA4B /* weather forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather forecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049DD1031F38567A00EBBA4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		049DD1051F38567A00EBBA4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049DD1061F38567A00EBBA4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		049DD1081F38567A00EBBA4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		049DD1091F38567A00EBBA4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		049DD10C1F38567A00EBBA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049DD10E1F38567A00EBBA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		049DD1111F38567A00EBBA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049DD1131F38567A00EBBA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049DD1181F38567A00EBBA4B /* weather forecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather forecastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049DD11C1F38567A00EBBA4B /* weather_forecastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weather_forecastTests.m; sourceTree = "<group>"; };
@@ -51,6 +64,16 @@
 		049DD1231F38567A00EBBA4B /* weather forecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather forecastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049DD1271F38567A00EBBA4B /* weather_forecastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weather_forecastUITests.m; sourceTree = "<group>"; };
 		049DD1291F38567A00EBBA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C944A41F3D603D00081098 /* SeletedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeletedViewController.h; sourceTree = "<group>"; };
+		04C944A51F3D603D00081098 /* SeletedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeletedViewController.m; sourceTree = "<group>"; };
+		04E00D741F3C4FE400D29315 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		04E00D751F3C4FE400D29315 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		04E502871F5D5B3D00B6E4A2 /* Global_Change.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global_Change.h; sourceTree = "<group>"; };
+		04E502881F5D5B3D00B6E4A2 /* Global_Change.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global_Change.m; sourceTree = "<group>"; };
+		04E5028A1F5D652200B6E4A2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04E5028B1F5D652200B6E4A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04E5028D1F5D658000B6E4A2 /* UrbanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrbanView.h; sourceTree = "<group>"; };
+		04E5028E1F5D658000B6E4A2 /* UrbanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrbanView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0466F1921F3AF5050061D5BD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0466F1931F3AF54A0061D5BD /* CellOne.h */,
+				0466F1941F3AF54A0061D5BD /* CellOne.m */,
+				0466F18C1F3AF2490061D5BD /* CellTwo.h */,
+				0466F18D1F3AF2490061D5BD /* CellTwo.m */,
+				0466F18F1F3AF3C80061D5BD /* CellThree.h */,
+				0466F1901F3AF3C80061D5BD /* CellThree.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
 		049DD0F61F38567A00EBBA4B = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +137,24 @@
 		049DD1011F38567A00EBBA4B /* weather forecast */ = {
 			isa = PBXGroup;
 			children = (
+				0466F1921F3AF5050061D5BD /* TableViewCell */,
 				049DD1051F38567A00EBBA4B /* AppDelegate.h */,
 				049DD1061F38567A00EBBA4B /* AppDelegate.m */,
 				049DD1081F38567A00EBBA4B /* ViewController.h */,
 				049DD1091F38567A00EBBA4B /* ViewController.m */,
-				049DD10B1F38567A00EBBA4B /* Main.storyboard */,
+				04E5028A1F5D652200B6E4A2 /* MainViewController.h */,
+				04E5028B1F5D652200B6E4A2 /* MainViewController.m */,
+				04C944A41F3D603D00081098 /* SeletedViewController.h */,
+				04C944A51F3D603D00081098 /* SeletedViewController.m */,
+				04E5028D1F5D658000B6E4A2 /* UrbanView.h */,
+				04E5028E1F5D658000B6E4A2 /* UrbanView.m */,
+				0466F19C1F3B41540061D5BD /* MyGroup.h */,
+				0466F19D1F3B41540061D5BD /* MyGroup.m */,
+				04E00D741F3C4FE400D29315 /* HeaderView.h */,
+				04E00D751F3C4FE400D29315 /* HeaderView.m */,
+				04E502871F5D5B3D00B6E4A2 /* Global_Change.h */,
+				04E502881F5D5B3D00B6E4A2 /* Global_Change.m */,
 				049DD10E1F38567A00EBBA4B /* Assets.xcassets */,
-				049DD1101F38567A00EBBA4B /* LaunchScreen.storyboard */,
 				049DD1131F38567A00EBBA4B /* Info.plist */,
 				049DD1021F38567A00EBBA4B /* Supporting Files */,
 			);
@@ -246,9 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049DD1121F38567A00EBBA4B /* LaunchScreen.storyboard in Resources */,
 				049DD10F1F38567A00EBBA4B /* Assets.xcassets in Resources */,
-				049DD10D1F38567A00EBBA4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E502891F5D5B3D00B6E4A2 /* Global_Change.m in Sources */,
+				0466F19E1F3B41540061D5BD /* MyGroup.m in Sources */,
+				04C944A61F3D603D00081098 /* SeletedViewController.m in Sources */,
+				04E5028C1F5D652200B6E4A2 /* MainViewController.m in Sources */,
+				04E00D761F3C4FE400D29315 /* HeaderView.m in Sources */,
 				049DD10A1F38567A00EBBA4B /* ViewController.m in Sources */,
 				049DD1071F38567A00EBBA4B /* AppDelegate.m in Sources */,
+				0466F18E1F3AF2490061D5BD /* CellTwo.m in Sources */,
 				049DD1041F38567A00EBBA4B /* main.m in Sources */,
+				04E5028F1F5D658000B6E4A2 /* UrbanView.m in Sources */,
+				0466F1911F3AF3C80061D5BD /* CellThree.m in Sources */,
+				0466F1951F3AF54A0061D5BD /* CellOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +363,6 @@
 			targetProxy = 049DD1241F38567A00EBBA4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		049DD10B1F38567A00EBBA4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049DD10C1F38567A00EBBA4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		049DD1101F38567A00EBBA4B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049DD1111F38567A00EBBA4B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		049DD12A1F38567A00EBBA4B /* Debug */ = {
@@ -424,8 +459,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "weather forecast/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.weather-forecast";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,8 +473,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "weather forecast/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.weather-forecast";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -507,6 +548,7 @@
 				049DD12E1F38567A00EBBA4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049DD12F1F38567A00EBBA4B /* Build configuration list for PBXNativeTarget "weather forecastTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +557,7 @@
 				049DD1311F38567A00EBBA4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049DD1321F38567A00EBBA4B /* Build configuration list for PBXNativeTarget "weather forecastUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +566,7 @@
 				049DD1341F38567A00EBBA4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
